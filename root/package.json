@@ -1,0 +1,17 @@
+{
+  "name": "{%= name %}",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.html",
+  "author": "",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-sass": "~1.0.0",
+    "grunt-contrib-watch": "~1.0.0", 
+    "grunt-http-server": "2.0.0",
+    "svgo": "^1.0.5"
+  },
+  "scripts": {
+    "svgo": "svgo --config=svgo.yml -f .\\images\\svg\\ -o .\\images\\svgo\\"
+  } 
+}
